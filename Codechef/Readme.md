@@ -10,11 +10,12 @@
 
 ## Progress Tracking
 
-| Week | Problems Solved | Total Solved |
+| Week | weekely solved | Total Solved |
 |--------|--------|--------|
-| Week 1 | 0 | 0 |
-| Week 2 | 0 | 0 |
-| Week 3 | 0 | 0 |
+| June | 0 | 0 |
+| July | 0 | 0 |
+| August | 0 | 0 |
+| 
 
 ## Updates
 I will update my progress weekly and share:
