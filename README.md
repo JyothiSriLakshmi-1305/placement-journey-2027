@@ -1,82 +1,58 @@
-# placement-journey-2027
-My journey towards Software Engineering, QA Automation, and AI/ML placements.
-🚀 Placement Journey 2027
+# 🚀 Placement Journey 2027
 
-Welcome to my Placement Preparation Repository.
+Hi, I'm **Jyothi Sri Lakshmi Kuna**, a B.Tech AIML student documenting my preparation journey for placements.
 
-I am Jyothi Sri Lakshmi Kuna, a B.Tech student in Artificial Intelligence & Machine Learning. This repository documents my journey toward becoming a Software Engineer, QA Automation Engineer, and AI/ML Engineer.
+## 🎯 Target Roles
 
-🎯 Career Goals
+* Software Engineer
+* QA Automation Engineer
+* AI/ML Engineer
 
-Software Engineer
+## 📚 Preparation Areas
 
-QA Automation Engineer
+* Java
+* Data Structures & Algorithms
+* SQL
+* Aptitude
+* QA Automation
+* Machine Learning
 
-AI/ML Engineer
+## 💻 Coding Platforms
 
-📚 Areas of Preparation
-Programming
-Java
-Python
-Object-Oriented Programming
-Data Structures & Algorithms
-Arrays
-Strings
-Hashing
-Linked Lists
-Stacks & Queues
-Trees
-Recursion
-Databases
-SQL
-Joins
-Subqueries
-Query Optimization
-Aptitude
-Quantitative Aptitude
-Logical Reasoning
-Verbal Ability
-QA Automation
-Selenium
-TestNG
-Maven
-API Testing
-Artificial Intelligence & Machine Learning
-Machine Learning
-Data Analysis
-Mini Projects
-📅 Daily Learning Logs
+* CodeChef
+* LeetCode
+* HackerRank
+* HackerEarth
 
-Every day I document:
+## 🏆 Featured Projects
 
-Topics learned
-Coding problems solved
-Aptitude practice
-Key takeaways
-💻 Coding Practice
+* BudgetWise
+* Spam URL Detection
+* AQI Prediction
+* Smart AI Attendance
 
-Platforms:
+## 📂 Repository Structure
 
-CodeChef
-LeetCode
-HackerRank
-HackerEarth
-🏆 Projects
-BudgetWise – AI-Based Expense Forecasting Dashboard
-Spam URL Detection
-AQI Prediction Model
-Smart AI Attendance
-📈 Current Focus
-Java Fundamentals
-Data Structures & Algorithms
-SQL
-Aptitude
-Placement Preparation
-🌱 Philosophy
+* Daily Learning Logs
+* Java Practice
+* DSA Solutions
+* Coding Platform Solutions
+* SQL Notes
+* Aptitude Preparation
+* Interview Preparation
+* QA Automation Notes
+* AI/ML Learning
 
-Small improvements every day lead to significant growth over time.
+## 📈 Current Focus
 
-This repository serves as a public record of my learning, consistency, and preparation journey.
-"Sacrifice your comfort today or Sacrifice your dream tomorrow, the choice is yours ⚡💪"
+* Java Fundamentals
+* DSA
+* SQL
+* Aptitude
 
-"Consistency beats intensity when maintained over time."
+## 🌱 Motto
+
+> Learn. Practice. Build. Improve. Repeat.
+
+> "Sacrifice your comfort today, or sacrifice your dream tomorrow. The choice is yours."
+> "Consistency beats intensity when maintained over time."
