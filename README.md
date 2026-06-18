@@ -7,9 +7,13 @@ Welcome to my Placement Preparation Repository.
 I am Jyothi Sri Lakshmi Kuna, a B.Tech student in Artificial Intelligence & Machine Learning. This repository documents my journey toward becoming a Software Engineer, QA Automation Engineer, and AI/ML Engineer.
 
 🎯 Career Goals
+
 Software Engineer
+
 QA Automation Engineer
+
 AI/ML Engineer
+
 📚 Areas of Preparation
 Programming
 Java
