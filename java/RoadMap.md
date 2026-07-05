@@ -132,7 +132,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ---
 
-## Module 9 – Comments 🔄
+## Module 9 – Comments ✅
 
 - Single-Line Comments
 - Multi-Line Comments
