@@ -18,7 +18,18 @@
 *.zip
 *.tar.gz
 *.rar
+# VS Code
+.vscode/
 
+# Java compiled files
+*.class
+
+# Log files
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
