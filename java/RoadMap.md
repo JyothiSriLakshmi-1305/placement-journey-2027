@@ -17,8 +17,8 @@ This roadmap is my complete Java learning journey for Software Engineering place
 | 7 | Keywords | ✅ Completed |
 | 8 | Identifiers | ✅ Completed |
 | 9 | Comments | ✅ Completed |
-| 10 | Operators | ⏳ Upcoming |
-| 11 | Type Casting | ⏳ Pending |
+| 10 | Operators | ✅ Completed |
+| 11 | Type Casting | ⏳ Upcoming |
 | 12 | Input Handling | ⏳ Pending |
 | 13 | Decision Making | ⏳ Pending |
 | 14 | Loops | ⏳ Pending |
@@ -143,7 +143,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 # 📖 Phase 3 – Operators
 
-## Module 10
+## Module 10 ✅
 
 - Arithmetic Operators
 - Unary Operators
