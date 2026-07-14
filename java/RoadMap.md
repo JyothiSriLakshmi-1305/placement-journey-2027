@@ -1,6 +1,6 @@
-# 🚀 Java Masterclass Roadmap (Beginner → Advanced)
+# 🚀 Java Learning Bootcamp Roadmap (2027)
 
-This roadmap is my complete Java learning journey for Software Engineering placements. Each module builds upon the previous one, covering Java fundamentals, Object-Oriented Programming, Data Structures, and Spring Boot.
+> **Goal:** Master Java from Beginner to Advanced, crack Software Engineering placements, build Spring Boot projects, and become industry-ready.
 
 ---
 
@@ -8,6 +8,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 | Module | Topic | Status |
 |---------|-------|--------|
+| 0 | Programming Fundamentals | ⏳ Pending |
 | 1 | Introduction to Java | ✅ Completed |
 | 2 | Java Architecture | ✅ Completed |
 | 3 | First Java Program | ✅ Completed |
@@ -18,25 +19,42 @@ This roadmap is my complete Java learning journey for Software Engineering place
 | 8 | Identifiers | ✅ Completed |
 | 9 | Comments | ✅ Completed |
 | 10 | Operators | ✅ Completed |
-| 11 | Type Casting | ✅ Upcoming |
-| 12 | Input Handling | ⏳ Pending |
-| 13 | Decision Making | ⏳ Pending |
-| 14 | Loops | ⏳ Pending |
-| 15 | Patterns | ⏳ Pending |
-| 16 | Methods | ⏳ Pending |
-| 17 | Arrays | ⏳ Pending |
-| 18 | Strings | ⏳ Pending |
-| 19 | Object-Oriented Programming | ⏳ Pending |
-| 20 | Exception Handling | ⏳ Pending |
-| 21 | Collections Framework | ⏳ Pending |
-| 22 | File Handling | ⏳ Pending |
-| 23 | Multithreading | ⏳ Pending |
-| 24 | Java 8+ Features | ⏳ Pending |
-| 25 | JDBC | ⏳ Pending |
-| 26 | Advanced Java | ⏳ Pending |
-| 27 | DSA in Java | ⏳ Pending |
-| 28 | Placement Preparation | ⏳ Pending |
-| 29 | Spring Boot | ⏳ Pending |
+| 11 | Type Conversion | ✅ Completed |
+| 12 | Output System | ✅ Completed |
+| 13 | Escape Sequences | 🔄 In Progress |
+| 14 | Input System | ⏳ Pending |
+| 15 | Math Class | ⏳ Pending |
+| 16 | Command Line Arguments | ⏳ Pending |
+| 17 | Decision Making | ⏳ Pending |
+| 18 | Loops | ⏳ Pending |
+| 19 | Patterns | ⏳ Pending |
+| 20 | Methods | ⏳ Pending |
+| 21 | Arrays | ⏳ Pending |
+| 22 | Strings | ⏳ Pending |
+| 23 | Object-Oriented Programming | ⏳ Pending |
+| 24 | Exception Handling | ⏳ Pending |
+| 25 | Collections Framework | ⏳ Pending |
+| 26 | File Handling | ⏳ Pending |
+| 27 | Multithreading | ⏳ Pending |
+| 28 | Java 8+ Features | ⏳ Pending |
+| 29 | JDBC | ⏳ Pending |
+| 30 | Advanced Java | ⏳ Pending |
+| 31 | DSA in Java | ⏳ Pending |
+| 32 | Placement Preparation | ⏳ Pending |
+| 33 | Spring Boot | ⏳ Pending |
+
+---
+
+# 📖 Phase 0 – Programming Fundamentals
+
+## Module 0
+
+- What is Programming?
+- Algorithm
+- Flowchart
+- Pseudocode
+- Compilation vs Interpretation
+- IDE Basics
 
 ---
 
@@ -50,7 +68,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - Features
 - Java Editions
 - Java Versions
-- WORA
+- WORA (Write Once Run Anywhere)
 
 ---
 
@@ -63,7 +81,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - Compiler
 - Interpreter
 - Garbage Collection
-- Program Execution
+- Program Execution Flow
 
 ---
 
@@ -85,7 +103,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ## Module 4 – Variables ✅
 
-- Variable Basics
+- Variables
 - Memory Concept
 - Declaration
 - Initialization
@@ -104,11 +122,11 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ## Module 6 – Literals ✅
 
-- Integer Literals
-- Floating Literals
-- Character Literals
-- Boolean Literals
-- String Literals
+- Integer
+- Floating Point
+- Character
+- Boolean
+- String
 - Null Literal
 
 ---
@@ -134,16 +152,16 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ## Module 9 – Comments ✅
 
-- Single-Line Comments
-- Multi-Line Comments
+- Single-Line
+- Multi-Line
 - JavaDoc
 - Documentation Comments
 
 ---
 
-# 📖 Phase 3 – Operators
+# 📖 Phase 3 – Java Essentials
 
-## Module 10 ✅
+## Module 10 – Operators ✅
 
 - Arithmetic Operators
 - Unary Operators
@@ -158,22 +176,91 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ---
 
-## Module 11 ✅
+## Module 11 – Type Conversion ✅
 
-- Widening
-- Narrowing
+- Why Type Conversion?
+- Widening (Implicit Casting)
+- Narrowing (Explicit Casting)
 - Type Promotion
-- Implicit Casting
-- Explicit Casting
+- Precision Loss
+- Overflow
+- Interview Questions
+- MCQs
+- Output Prediction
 
 ---
 
-## Module 12 ⏳
+## Module 12 – Output System ✅
 
-- Scanner
-- BufferedReader
-- Console
-- Parsing
+- print()
+- println()
+- printf()
+- Formatting
+- Format Specifiers
+- Best Practices
+
+---
+
+## Module 13 – Escape Sequences
+
+- \n
+- \t
+- \"
+- \'
+- \\
+- Formatting Console Output
+
+---
+
+## Module 14 – Input System
+
+### Scanner
+
+- next()
+- nextLine()
+- nextInt()
+- nextDouble()
+- nextBoolean()
+- Character Input
+
+### Parsing
+
+- Integer.parseInt()
+- Double.parseDouble()
+- Float.parseFloat()
+- Long.parseLong()
+- Boolean.parseBoolean()
+
+### BufferedReader
+
+### Console
+
+### Comparison
+
+- Scanner vs BufferedReader vs Console
+
+---
+
+## Module 15 – Math Class
+
+- Math.sqrt()
+- Math.pow()
+- Math.max()
+- Math.min()
+- Math.abs()
+- Math.ceil()
+- Math.floor()
+- Math.round()
+- Math.random()
+
+---
+
+## Module 16 – Command Line Arguments
+
+- String[] args
+- Passing Arguments
+- IDE vs Terminal
+- Industry Applications
 
 ---
 
@@ -217,6 +304,9 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - Parameters
 - Arguments
 - Return Type
+- Variable Scope
+- Pass by Value
+- Call Stack
 - Method Overloading
 - Recursion
 
@@ -227,8 +317,10 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - 1D Arrays
 - 2D Arrays
 - Jagged Arrays
+- Traversal
 - Searching
 - Sorting
+- Memory Representation
 - Interview Problems
 
 ---
@@ -241,6 +333,11 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - Immutable Objects
 - StringBuilder
 - StringBuffer
+- ASCII
+- Unicode
+- equals()
+- ==
+- compareTo()
 
 ---
 
@@ -258,6 +355,9 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - Polymorphism
 - Abstraction
 - Interfaces
+- Association
+- Aggregation
+- Composition
 - Inner Classes
 - Object Class
 
@@ -276,11 +376,16 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 # ⭐ Phase 12 – Collections Framework
 
+- Collection Hierarchy
+- Iterable
+- List
+- Set
+- Queue
+- Map
 - ArrayList
 - LinkedList
 - Vector
 - Stack
-- Queue
 - PriorityQueue
 - HashSet
 - TreeSet
@@ -318,6 +423,10 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 - Lambda Expressions
 - Functional Interfaces
+- Predicate
+- Consumer
+- Supplier
+- Function
 - Stream API
 - Optional
 - Method References
@@ -336,9 +445,9 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 # ⭐ Phase 17 – Advanced Java
 
+- Generics
 - Reflection
 - Annotations
-- Generics
 - Enums
 - Records
 - Sealed Classes
@@ -370,8 +479,8 @@ This roadmap is my complete Java learning journey for Software Engineering place
 - Coding Questions
 - Debugging
 - Output Prediction
-- Interview Questions
-- Company-wise Questions
+- Company-wise Interview Questions
+- Mock Interviews
 
 ---
 
@@ -391,24 +500,33 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 # 📚 Learning Pattern
 
-Every topic in this repository follows the same structure:
+Every topic follows the same Bootcamp structure:
 
-1. Why do we need it?
-2. Definition
-3. Internal Working
-4. Syntax
-5. Memory Diagram
-6. Flow Diagram
-7. Dry Run
-8. Code Examples
-9. Common Mistakes
-10. Best Practices
-11. Interview Questions
-12. MCQs
-13. Coding Exercises
-14. Assignment
-15. Revision Notes
-16. GitHub-ready Notes
+1. History
+2. Why?
+3. Problem Statement
+4. Real-Life Analogy
+5. Daily Applications
+6. Industry Applications
+7. Definition
+8. Internal Working
+9. Memory Diagram
+10. Flow Diagram
+11. Syntax
+12. Code Examples
+13. Dry Run
+14. Best Practices
+15. Common Mistakes
+16. Interview Questions
+17. MCQs
+18. Debugging
+19. Coding Exercises
+20. Assignment
+21. Mini Project (where applicable)
+22. Revision Notes
+23. GitHub-ready Notes
+24. Connection Map
+25. Future Topic Connection
 
 ---
 
@@ -416,9 +534,7 @@ Every topic in this repository follows the same structure:
 
 - ✅ Master Java Fundamentals
 - ✅ Crack Java Interviews
-- ✅ Solve DSA using Java
+- ✅ Master DSA using Java
 - ✅ Build Spring Boot Projects
 - ✅ Become Placement Ready
-- ✅ Prepare for Software Engineer Roles (2027)
-
----
+- ✅ Secure a Software Engineer Role (2027)
