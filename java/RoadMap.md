@@ -18,7 +18,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 | 8 | Identifiers | ✅ Completed |
 | 9 | Comments | ✅ Completed |
 | 10 | Operators | ✅ Completed |
-| 11 | Type Casting | ⏳ Upcoming |
+| 11 | Type Casting | ✅ Upcoming |
 | 12 | Input Handling | ⏳ Pending |
 | 13 | Decision Making | ⏳ Pending |
 | 14 | Loops | ⏳ Pending |
@@ -158,7 +158,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ---
 
-## Module 11
+## Module 11 ✅
 
 - Widening
 - Narrowing
@@ -168,7 +168,7 @@ This roadmap is my complete Java learning journey for Software Engineering place
 
 ---
 
-## Module 12
+## Module 12 ⏳
 
 - Scanner
 - BufferedReader
