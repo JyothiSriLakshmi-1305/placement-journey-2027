@@ -30,6 +30,16 @@ public class OutputSystem{
         9.66
         */
 
+        //printf method
+        //using format specifiers and format arguments
+        System.out.println("***********");
+        System.out.println("Student Report");
+        System.out.println("***********");
+        String name="Bhanu";
+        int age1=21;
+        double cgpa=8.92;
+        System.out.printf("Name:%s\nAge:%d\nCGPA:%.2f",name,age1,cgpa);
+
 
     }
 }
