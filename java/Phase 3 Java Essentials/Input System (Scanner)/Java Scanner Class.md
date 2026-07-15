@@ -1,31 +1,36 @@
 # Java Scanner Class
 
-## History
-
-In the early versions of Java, taking input from the keyboard was difficult.
-
-Programmers mainly used:
-
-- BufferedReader
-- DataInputStream
-
-These classes required more code and manual conversion of input values.
-
-To simplify keyboard input, Java introduced the **Scanner** class in **Java 5 (JDK 1.5)** as part of the `java.util` package.
-
-Today, Scanner is the most commonly used class for beginners and competitive programming.
+> **Module 14 – Input System**
+>
+> **Goal:** Learn how Java programs accept input from users and understand why the Scanner class is one of the most important classes for beginners, competitive programming, and software development.
 
 ---
 
-# Why Do We Need Scanner?
+# History
 
-Until now, we used hardcoded values.
+When Java was first released (JDK 1.0), accepting keyboard input was not easy.
 
-Example
+Developers mainly used:
+
+- DataInputStream (Deprecated)
+- BufferedReader
+
+Although powerful, these classes required more code and manual conversion of data types.
+
+To simplify input operations, Java introduced the **Scanner** class in **Java 5 (JDK 1.5)** as part of the `java.util` package.
+
+Today, Scanner is the first input class learned by almost every Java programmer.
+
+---
+
+# Why Scanner?
+
+Before Scanner, Java programs mostly used **hardcoded values**.
+
+Example:
 
 ```java
 int age = 20;
-
 System.out.println(age);
 ```
 
@@ -35,90 +40,141 @@ Output
 20
 ```
 
-Every time we want another value, we must edit the program.
+The program always prints **20**.
 
-Scanner solves this problem by allowing the user to enter values while the program is running.
+If another user wants to enter **25**, the source code must be modified and compiled again.
+
+This is not practical.
+
+Scanner solves this problem by allowing programs to accept **dynamic input**.
 
 ---
 
 # Problem Statement
 
-Suppose we want to create a calculator.
+Imagine creating a calculator.
 
-Without Scanner
+Without Scanner:
 
 ```java
 int a = 10;
 int b = 20;
 ```
 
-Answer is always
+The answer is always:
 
 ```
 30
 ```
 
-Instead, we should ask
+Real calculators never work this way.
+
+Instead, they ask:
 
 ```
 Enter First Number:
-
 Enter Second Number:
 ```
 
-The user decides the values.
+Then they calculate using the values entered by the user.
+
+This is why Scanner exists.
+
+---
+
+# Static Data vs Dynamic Data
+
+## Static Data
+
+Data written directly inside the source code.
+
+```java
+int age = 20;
+```
+
+Characteristics:
+
+- Fixed
+- Programmer controls the value
+- Changes require editing the program
+
+---
+
+## Dynamic Data
+
+Data entered while the program is running.
+
+```
+Enter Age:
+
+25
+```
+
+Characteristics:
+
+- Changes every execution
+- User controls the value
+- Makes applications interactive
 
 ---
 
 # Real-Life Analogy
 
-Think about an online registration form.
+### Static Data
+
+A printed wedding invitation.
+
+```
+Date
+
+15 August 2027
+```
+
+Everyone receives the same information.
+
+---
+
+### Dynamic Data
+
+An online registration form.
 
 ```
 Enter Name
 
-↓
-
-Jyothi
-
-↓
-
-Store Name
-
-↓
-
-Display Welcome Message
+____________
 ```
 
-Scanner behaves exactly like the registration form.
+Every user enters different information.
+
+Scanner works exactly like this.
 
 ---
 
 # Daily Applications
 
-Scanner is used in
+Scanner is useful in:
 
 - Student Registration
-- Login Systems
-- ATM Applications
+- Calculator Programs
+- ATM Simulation
 - Banking Systems
-- Quiz Programs
-- Calculator Applications
-- Employee Management Systems
+- Quiz Applications
+- Library Management
+- Employee Management
 
 ---
 
 # Industry Applications
 
-Scanner is mainly used for
+Although desktop and web applications usually use forms instead of Scanner, the concepts learned here are fundamental.
 
-- Learning Java
-- Console Applications
+Scanner is commonly used in:
+
 - Competitive Programming
 - Coding Interviews
-- Small Utility Programs
-
-Large enterprise applications usually use GUI forms, web forms, or APIs instead of Scanner.
+- Console Applications
+- Learning Java
+- Utility Programs
 
 ---
 
@@ -130,19 +186,19 @@ The **Scanner** class is a predefined Java class used to read input from differe
 - Files
 - Strings
 
-For beginners, Scanner is mainly used to accept input from the keyboard.
+For beginners, Scanner is primarily used to read **keyboard input**.
 
 ---
 
 # Package
 
-Scanner belongs to
+Scanner belongs to:
 
 ```java
 java.util
 ```
 
-Therefore, we must import it.
+Therefore, Java does not import it automatically.
 
 ---
 
@@ -172,15 +228,33 @@ Scanner sc = new Scanner(System.in);
 |------|---------|
 | Scanner | Class Name |
 | sc | Object Name |
-| new | Creates an object |
+| new | Creates a new object |
 | Scanner() | Constructor |
-| System.in | Standard Keyboard Input |
+| System.in | Standard keyboard input stream |
+
+---
+
+# Why System.in?
+
+Java provides three standard streams.
+
+| Stream | Purpose |
+|---------|---------|
+| System.in | Input |
+| System.out | Standard Output |
+| System.err | Error Output |
+
+`System.in` tells Scanner to read data from the keyboard.
 
 ---
 
 # Internal Working
 
 ```
+User
+
+↓
+
 Keyboard
 
 ↓
@@ -193,7 +267,7 @@ Scanner Object
 
 ↓
 
-Variable
+Java Variable
 
 ↓
 
@@ -208,24 +282,30 @@ Output
 
 # Memory Diagram
 
+Before Input
+
 ```
-Keyboard
-
-↓
-
-25
-
-↓
-
-Scanner
-
-↓
-
 age
 
 ↓
 
-25
+Empty
+```
+
+User enters
+
+```
+20
+```
+
+After Input
+
+```
+age
+
+↓
+
+20
 ```
 
 ---
@@ -237,11 +317,15 @@ Start
 
 ↓
 
+Import Scanner
+
+↓
+
 Create Scanner Object
 
 ↓
 
-Ask User for Input
+Ask User
 
 ↓
 
@@ -253,7 +337,7 @@ Store in Variable
 
 ↓
 
-Process Data
+Process
 
 ↓
 
@@ -281,7 +365,9 @@ public class ScannerDemo {
 
         int age = sc.nextInt();
 
-        System.out.println("Age = " + age);
+        System.out.println("Your age is: " + age);
+
+        sc.close();
 
     }
 
@@ -290,12 +376,14 @@ public class ScannerDemo {
 
 ---
 
-## Sample Output
+# Sample Output
 
 ```
-Enter your age: 20
+Enter your age:
 
-Age = 20
+20
+
+Your age is: 20
 ```
 
 ---
@@ -318,7 +406,7 @@ Scanner reads
 
 ↓
 
-Stored in
+Stores it in
 
 ```java
 age
@@ -329,56 +417,26 @@ age
 Program prints
 
 ```
-Age = 25
+Your age is: 25
 ```
 
 ---
 
-# Why System.in?
+# Bootcamp Insight 💡
 
-```
-System.out
+Many beginners think **Scanner is a keyword**.
 
-↓
+It is **not**.
 
-Output
-```
+Scanner is simply a **class** provided by the Java Standard Library.
 
-```
-System.in
+This is why we must:
 
-↓
+- Import it
+- Create an object
+- Call its methods
 
-Input
-```
-
-`System.in` tells Java to read data from the keyboard.
-
----
-
-# Why Import Scanner?
-
-Scanner is **not** part of the `java.lang` package.
-
-Therefore, Java does not import it automatically.
-
-We must write
-
-```java
-import java.util.Scanner;
-```
-
----
-
-# Closing Scanner
-
-After reading input, it is good practice to close the Scanner.
-
-```java
-sc.close();
-```
-
-This releases the resources associated with the input stream.
+Exactly like any other class.
 
 ---
 
@@ -386,16 +444,15 @@ This releases the resources associated with the input stream.
 
 - Import Scanner before using it.
 - Create only one Scanner object for `System.in`.
-- Give meaningful object names like `scanner` or `sc`.
+- Use meaningful object names (`scanner`, `sc`).
 - Close the Scanner when input is complete.
+- Do not create multiple Scanner objects for the same input stream.
 
 ---
 
 # Common Mistakes
 
-## Mistake 1
-
-Forgetting the import statement.
+## 1. Forgetting Import
 
 ```java
 Scanner sc = new Scanner(System.in);
@@ -411,9 +468,7 @@ import java.util.Scanner;
 
 ---
 
-## Mistake 2
-
-Using Scanner without creating an object.
+## 2. Forgetting Object Creation
 
 Incorrect
 
@@ -429,73 +484,56 @@ sc.nextInt();
 
 ---
 
-## Mistake 3
+## 3. Multiple Scanner Objects
 
-Creating multiple Scanner objects for `System.in`.
+Avoid
 
-Prefer using a single Scanner object throughout the program.
+```java
+Scanner s1 = new Scanner(System.in);
+Scanner s2 = new Scanner(System.in);
+```
+
+Use one Scanner object throughout the program.
 
 ---
 
 # Interview Questions
 
-### Q1
+### Q1. What is Scanner?
 
-What is Scanner?
-
-**Answer**
-
-Scanner is a predefined Java class used to accept input from the user.
+A predefined Java class used to accept input from users.
 
 ---
 
-### Q2
+### Q2. Which package contains Scanner?
 
-Which package contains Scanner?
-
-**Answer**
-
-```java
+```
 java.util
 ```
 
 ---
 
-### Q3
+### Q3. Why do we import Scanner?
 
-Why do we import Scanner?
-
-**Answer**
-
-Because Scanner belongs to `java.util` and is not imported automatically.
+Because it belongs to `java.util`, not `java.lang`.
 
 ---
 
-### Q4
+### Q4. What is `System.in`?
 
-What is `System.in`?
-
-**Answer**
-
-It is the standard input stream used to read keyboard input.
+The standard input stream that reads data from the keyboard.
 
 ---
 
-### Q5
+### Q5. Why do we create an object of Scanner?
 
-What is the purpose of `new Scanner(System.in)`?
-
-**Answer**
-
-It creates a Scanner object that reads input from the keyboard.
+Because Scanner is a class, and its methods can only be used through an object.
 
 ---
 
 # MCQs
 
-### 1
-
-Scanner belongs to which package?
+### 1. Scanner belongs to:
 
 A. java.io
 
@@ -509,13 +547,11 @@ D. java.net
 
 ---
 
-### 2
-
-Which keyword creates an object?
+### 2. Which keyword creates an object?
 
 A. class
 
-B. public
+B. static
 
 C. new
 
@@ -525,9 +561,7 @@ D. import
 
 ---
 
-### 3
-
-Which stream is used for keyboard input?
+### 3. Which stream represents keyboard input?
 
 A. System.out
 
@@ -535,50 +569,40 @@ B. System.err
 
 C. System.in
 
-D. Scanner.out
+D. Scanner.in
 
 **Answer:** C
 
 ---
 
-### 4
+# Debugging
 
-Which statement creates a Scanner object?
-
-A.
-
-```java
-Scanner sc;
-```
-
-B.
+### Error
 
 ```java
 Scanner sc = new Scanner(System.in);
 ```
 
-C.
+without import.
+
+Reason:
+
+Scanner cannot be found because the compiler does not know where the class is located.
+
+Solution:
 
 ```java
-Scanner(System.in);
+import java.util.Scanner;
 ```
-
-D.
-
-```java
-new Scanner();
-```
-
-**Answer:** B
 
 ---
 
 # Coding Exercises
 
-1. Read your age and print it.
-2. Read your roll number and print it.
-3. Read your favorite number and display it.
-4. Create one Scanner object and use it for multiple inputs.
+1. Read your age.
+2. Read your roll number.
+3. Read your favorite number.
+4. Read two integers and print them.
 5. Close the Scanner after use.
 
 ---
@@ -591,27 +615,39 @@ Write a Java program that asks the user to enter:
 - Age
 - College
 
-Print all the entered details.
+Display all the information entered by the user.
 
-(We'll learn how to read Strings using `next()` and `nextLine()` in the upcoming lessons.)
+(We'll learn `next()` and `nextLine()` in the upcoming lessons.)
 
 ---
 
 # Revision Notes
 
-- Scanner reads user input.
+- Scanner is used to read user input.
 - It belongs to `java.util`.
 - Import using `import java.util.Scanner;`
 - Create an object using `new Scanner(System.in)`.
-- `System.in` represents keyboard input.
-- Close the Scanner after use.
+- `System.in` reads keyboard input.
+- Scanner converts keyboard input into Java data types.
 
 ---
 
 # Connection Map
 
 ```
-Why Input is Needed
+Variables
+
+↓
+
+Static Data
+
+↓
+
+Dynamic Data
+
+↓
+
+Why Input?
 
 ↓
 
@@ -620,42 +656,35 @@ Scanner Class
 ↓
 
 Scanner Methods
-
-↓
-
-Input Processing
-
-↓
-
-Real-world Programs
 ```
 
 ---
 
 # Future Topic Connection
 
-Now that you've learned **what the Scanner class is** and **how to create a Scanner object**, the next step is to learn **Scanner methods**.
+Now that you've learned **how to create a Scanner object**, the next step is learning the **Scanner methods** used to read different types of input.
 
-We'll begin with:
+We'll start with:
 
 - `next()`
 - `nextLine()`
 
-These methods are used to read **text input**, and understanding the difference between them is one of the **most frequently asked Java interview questions**.
+These two methods look similar but behave differently, and understanding their differences is one of the most common Java interview questions.
 
 ---
 
 # Key Takeaways
 
-- Scanner is the most beginner-friendly input class in Java.
-- It belongs to the `java.util` package.
-- `System.in` reads data from the keyboard.
-- A Scanner object is required before reading input.
-- Learning Scanner is essential for coding interviews and competitive programming.
+- Scanner makes Java programs interactive.
+- It accepts dynamic input from users.
+- Scanner belongs to the `java.util` package.
+- `System.in` represents keyboard input.
+- Create one Scanner object and reuse it throughout the program.
+- Scanner is essential for coding interviews and competitive programming.
 
 ---
 
 ## References
 
 - Oracle Java Documentation
-- https://docs.oracle.com/en/java/
+- https://docs.oracle.com/en/java/docs/
