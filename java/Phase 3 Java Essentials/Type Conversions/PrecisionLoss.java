@@ -7,7 +7,7 @@ public class PrecisionLoss{
 
         System.out.println(f);
         //output : 1.23456792E8
-
+        //but because binary floating-point has limited precision.
         //Some digits change because a float has limited precision.
 
     }
