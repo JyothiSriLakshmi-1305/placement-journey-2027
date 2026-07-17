@@ -20,7 +20,7 @@ public class LoginDemo {
 
         System.out.println("Welcome " + username);
         System.out.println(password);
-        Arrays.fill(password, ' ');
+        //Arrays.fill(password, ' ');
 
         System.out.println("After removed :" + Arrays.toString(password));
     }

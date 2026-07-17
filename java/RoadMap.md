@@ -22,8 +22,8 @@
 | 11 | Type Conversion | ✅ Completed |
 | 12 | Output System | ✅ Completed |
 | 13 | Escape Sequences | ✅ In Progress |
-| 14 | Input System | 🔄 In Progress |
-| 15 | Math Class | 🔄 In Progress |
+| 14 | Input System | ✅ In Progress |
+| 15 | Math Class |  ✅ In Progress |
 | 16 | Command Line Arguments | ⏳ Pending |
 | 17 | Decision Making | ⏳ Pending |
 | 18 | Loops | ⏳ Pending |
@@ -212,7 +212,7 @@
 
 ---
 
-## Module 14 – Input System 🔄
+## Module 14 – Input System ✅
 
 ### Scanner
 
@@ -241,7 +241,7 @@
 
 ---
 
-## Module 15 – Math Class 🔄
+## Module 15 – Math Class ✅
 
 - Math.sqrt()
 - Math.pow()
@@ -255,7 +255,7 @@
 
 ---
 
-## Module 16 – Command Line Arguments
+## Module 16 – Command Line Arguments 🔄
 
 - String[] args
 - Passing Arguments
@@ -264,7 +264,7 @@
 
 ---
 
-# 📖 Phase 4 – Decision Making
+# 📖 Phase 4 – Decision Making 🔄
 
 - if
 - if-else
