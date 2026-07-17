@@ -1,9 +1,10 @@
 import java.io.*;
+import java.util.*;
 
 public class BufferReaderDemo {
 
     public static void main(String args[])
-            throws Exception {
+            throws IOException {
 
         BufferedReader br =
             new BufferedReader(
@@ -18,6 +19,13 @@ public class BufferReaderDemo {
     //read() :reads one character's numeric value:
     int ch = br.read();
     System.out.println((char) ch);
+    // Consume the remaining newline
+    br.readLine();
+    System.out.println("Enter Age : ");
+    int age=Integer.parseInt(br.readLine());
+    System.out.println("Age : "+age);
+
+
     //System.out.println(ch);
     /*  o/p:  a
               97
