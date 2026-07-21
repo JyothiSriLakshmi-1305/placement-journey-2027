@@ -271,7 +271,7 @@
 - else-if Ladder
 - Nested if
 - switch
-- Modern Switch
+- Modern Switch (yield)
 
 ---
 
@@ -284,6 +284,7 @@
 - break
 - continue
 - return
+- labeled break&continue
 
 ---
 
