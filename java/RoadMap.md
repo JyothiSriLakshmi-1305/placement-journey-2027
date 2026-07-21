@@ -25,9 +25,9 @@
 | 14 | Input System | ✅ Completed |
 | 15 | Math Class |  ✅ Completed |
 | 16 | Command Line Arguments | ✅ Completed |
-| 17 | Decision Making | ⏳ In Progress |
-| 18 | Loops | ⏳ In Progress |
-| 19 | Patterns | ⏳ Pending |
+| 17 | Decision Making | ✅ In Progress |
+| 18 | Loops | 🔄 In Progress |
+| 19 | Patterns | 🔄 In Progress |
 | 20 | Methods | ⏳ Pending |
 | 21 | Arrays | ⏳ Pending |
 | 22 | Strings | ⏳ Pending |
@@ -264,7 +264,7 @@
 
 ---
 
-# 📖 Phase 4 – Decision Making 🔄
+# 📖 Phase 4 – Decision Making ✅
 
 - if
 - if-else
@@ -275,7 +275,7 @@
 
 ---
 
-# 📖 Phase 5 – Loops
+# 📖 Phase 5 – Loops 🔄
 
 - while
 - do-while
