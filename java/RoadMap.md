@@ -25,10 +25,10 @@
 | 14 | Input System | ✅ Completed |
 | 15 | Math Class |  ✅ Completed |
 | 16 | Command Line Arguments | ✅ Completed |
-| 17 | Decision Making | ✅ In Progress |
-| 18 | Loops | 🔄 In Progress |
+| 17 | Decision Making | ✅ Completed |
+| 18 | Loops | ✅ Completed |
 | 19 | Patterns | 🔄 In Progress |
-| 20 | Methods | ⏳ Pending |
+| 20 | Methods | 🔄 Pending |
 | 21 | Arrays | ⏳ Pending |
 | 22 | Strings | ⏳ Pending |
 | 23 | Object-Oriented Programming | ⏳ Pending |
@@ -275,7 +275,7 @@
 
 ---
 
-# 📖 Phase 5 – Loops 🔄
+# 📖 Phase 5 – Loops ✅
 
 - while
 - do-while
@@ -288,7 +288,7 @@
 
 ---
 
-# 📖 Phase 6 – Patterns
+# 📖 Phase 6 – Patterns 🔄
 
 - Star Patterns
 - Number Patterns
@@ -299,7 +299,7 @@
 
 ---
 
-# 📖 Phase 7 – Methods
+# 📖 Phase 7 – Methods 🔄
 
 - Methods
 - Parameters
