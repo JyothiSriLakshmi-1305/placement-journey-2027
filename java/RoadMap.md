@@ -313,7 +313,7 @@
 
 ---
 
-# 📖 Phase 8 – Arrays
+# 📖 Phase 8 – Arrays 🔄
 
 - 1D Arrays
 - 2D Arrays
