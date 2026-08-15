@@ -13,7 +13,8 @@ class Daimond{
             System.out.println();
 
         }
-        for(int i=1;i<=r;i++){
+        //for lower half
+        for(int i=1;i<r;i++){
             for(int j=1;j<=i;j++){
                 System.out.print(" ");
             }
