@@ -27,7 +27,7 @@
 | 16 | Command Line Arguments | ✅ Completed |
 | 17 | Decision Making | ✅ Completed |
 | 18 | Loops | ✅ Completed |
-| 19 | Patterns | 🔄 In Progress |
+| 19 | Patterns | ✅ In Progress |
 | 20 | Methods | 🔄 Pending |
 | 21 | Arrays | ⏳ Pending |
 | 22 | Strings | ⏳ Pending |
@@ -288,7 +288,7 @@
 
 ---
 
-# 📖 Phase 6 – Patterns 🔄
+# 📖 Phase 6 – Patterns ✅
 
 - Star Patterns
 - Number Patterns
