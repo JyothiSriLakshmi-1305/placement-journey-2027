@@ -27,9 +27,9 @@
 | 16 | Command Line Arguments | ✅ Completed |
 | 17 | Decision Making | ✅ Completed |
 | 18 | Loops | ✅ Completed |
-| 19 | Patterns | ✅ In Progress |
-| 20 | Methods | 🔄 Pending |
-| 21 | Arrays | ⏳ Pending |
+| 19 | Patterns | ✅ Completed  |
+| 20 | Methods | 🔄 In Progress |
+| 21 | Arrays | 🔄 Pending |
 | 22 | Strings | ⏳ Pending |
 | 23 | Object-Oriented Programming | ⏳ Pending |
 | 24 | Exception Handling | ⏳ Pending |
