@@ -14,7 +14,7 @@
 |--------|--------|
 | June | 300 |
 | July | 300 |
-| August | 300 |
+| August | 330 |
 | Sept | 0 |
 | Oct | 0 | 
 | Nov | 0 | 
@@ -29,8 +29,8 @@ I will update my progress weekly and share:
 - Key takeaways
 
 ## Current Status
-- Problems Solved: **772 / 1000**
-- Progress: **77.2%**
+- Problems Solved: **930 / 1000**
+- Progress: **93.0%**
 
 ---
 *"Consistency beats intensity."*
