@@ -1,11 +1,12 @@
 # CodeChef Journey 🚀
 
-## Goal
-- Solve **1000 CodeChef Problems**.
+## Goal 🎯
+- Solve **2000 CodeChef Problems  🔄️ **.
+- 📌 ✅ Solved **1000 CodeChef Problems 🔦🚀**.
 - Improve problem-solving and competitive programming skills.
 
 ## Target
-- Total Target: **1000 Problems**
+- Total Target: **2000 Problems**
 - Platform: **CodeChef**
 
 ## Progress Tracking
@@ -15,7 +16,7 @@
 | June | 300 |
 | July | 300 |
 | August | 330 |
-| Sept | 30 |
+| Sept | 100 |
 | Oct | 0 | 
 | Nov | 0 | 
 | December | 0 | 
@@ -29,8 +30,7 @@ I will update my progress weekly and share:
 - Key takeaways
 
 ## Current Status
-- Problems Solved: **960 / 1000**
-- Progress: **96.0%**
+- Problems Solved: **1030 / 2000**
 
 ---
 *"Consistency beats intensity."*
